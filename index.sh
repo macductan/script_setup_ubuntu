@@ -8,4 +8,4 @@ sh -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubun
 
 sh -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/nvm.sh)
 
-sh -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/pritunl.sh)
+sh -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/docker.sh)
