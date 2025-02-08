@@ -1,3 +1,5 @@
+sudo apt update
+
 sudo apt install zsh -y
 zsh --version
 chsh -s $(which zsh)
