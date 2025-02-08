@@ -1,4 +1,4 @@
-sh -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/package.sh)
+wget -O - https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/package.sh | sh
 
 sh -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/zsh.sh)
 
