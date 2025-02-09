@@ -12,6 +12,6 @@ sh -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubun
 
 sh -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/bamboo-key.sh)
 
-sh -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/postman.sh)
+sh -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/neovim.sh)
 
 sh -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/indicator-multiload.sh)

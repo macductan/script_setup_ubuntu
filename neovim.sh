@@ -23,5 +23,10 @@ git clone git@github.com:macductan/vim-setup.git ~/.config/nvim
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
-# Vim theme
-
+# Install font
+curl -OL https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.tar.xz
+tar -xvf JetBrainsMono.tar.xz
+mkdir -p ~/.local/share/fonts
+mv JetBrainsMono ~/.local/share/fonts/
+fc-cache -fv
+rm -rf JetBrainsMono.tar.xz
