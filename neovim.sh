@@ -32,3 +32,4 @@ rm -rf ./JetBrainsMono.tar.xz
 # Install config neovim
 mkdir -p ~/.config/nvim
 git clone git@github.com:macductan/vim-setup.git ~/.config/nvim
+nvim +PlugInstall +qall
