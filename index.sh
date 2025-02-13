@@ -1,3 +1,5 @@
+# bash -c 'wget -O - https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/index.sh | bash -x'
+
 bash -c 'wget -O - https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/package-default.sh | bash -x'
 
 bash -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/zsh.sh)
