@@ -9,7 +9,7 @@ sudo apt-get install software-properties-common
 
 sudo add-apt-repository ppa:neovim-ppa/stable
 sudo apt-get update
-sudo apt-get install neovim
+brew install neovim -y
 
 sudo apt-get install python-dev-is-python3 python3-pip python3-dev -y
 sudo apt-get install python3-setuptools -y
@@ -34,3 +34,4 @@ mkdir -p ~/.config/nvim
 git clone git@github.com:macductan/vim-setup.git ~/.config/nvim
 nvim +PlugInstall +qall
 nvim +"CocInstall coc-json coc-tsserver" +qall
+nvim +"VimspectorInstall vscode-js-debug" +qall
