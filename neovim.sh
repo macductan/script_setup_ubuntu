@@ -35,7 +35,3 @@ git clone git@github.com:macductan/vim-setup.git ~/.config/nvim
 nvim +PlugInstall +qall
 nvim +"CocInstall coc-json coc-tsserver" +qall
 nvim +"VimspectorInstall vscode-js-debug" +qall
-
-# Copilot
-git clone https://github.com/github/copilot.vim.git \
-  ~/.config/nvim/pack/github/start/copilot.vim
