@@ -1,3 +1,5 @@
+# bash -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/zsh.sh)
+
 sudo apt update
 
 sudo apt install zsh -y

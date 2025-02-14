@@ -1,3 +1,5 @@
+# bash -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/docker.sh)
+
 # 1. Set up Docker's apt repository.
 # Add Docker's official GPG key:
 sudo apt-get update
