@@ -7,3 +7,4 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 nvm install 22
 nvm use 22
+npm i -g tsx
