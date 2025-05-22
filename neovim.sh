@@ -17,23 +17,29 @@ sudo apt-get install python-dev-is-python3 python3-pip python3-dev -y
 sudo apt-get install python3-setuptools -y
 sudo easy_install3 pip
 
-# Install vim-plug
-sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
-  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+# Install lib support
+sudo brew install rg -y
 
-# Install font
-curl -OL https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.tar.xz
-mkdir JetBrainsMono
-tar -xvf JetBrainsMono.tar.xz -C JetBrainsMono
-mkdir -p ~/.local/share/fonts
-mv JetBrainsMono ~/.local/share/fonts/
-fc-cache -fv
-rm -rf ./JetBrainsMono.tar.xz
-
-
-# Install config neovim
-mkdir -p ~/.config/nvim
+# Install Lazyvim
 git clone git@github.com:macductan/vim-setup.git ~/.config/nvim
-nvim +PlugInstall +qall
-nvim +"CocInstall coc-json coc-tsserver" +qall
-nvim +VimspectorInstall +qall
+
+# # Install vim-plug
+# sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+#   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+
+# # Install font
+# curl -OL https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.tar.xz
+# mkdir JetBrainsMono
+# tar -xvf JetBrainsMono.tar.xz -C JetBrainsMono
+# mkdir -p ~/.local/share/fonts
+# mv JetBrainsMono ~/.local/share/fonts/
+# fc-cache -fv
+# rm -rf ./JetBrainsMono.tar.xz
+
+
+# # Install config neovim
+# mkdir -p ~/.config/nvim
+# git clone git@github.com:macductan/vim-setup.git ~/.config/nvim
+# nvim +PlugInstall +qall
+# nvim +"CocInstall coc-json coc-tsserver" +qall
+# nvim +VimspectorInstall +qall
