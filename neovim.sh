@@ -20,9 +20,6 @@ sudo easy_install3 pip
 # Install lib support
 sudo brew install rg -y
 
-# Install Lazyvim
-git clone git@github.com:macductan/vim-setup.git ~/.config/nvim
-
 # # Install vim-plug
 # sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
 #   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
