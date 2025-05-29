@@ -1,13 +1,5 @@
 # bash -c 'wget -O - https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/index.sh | bash -x'
 
-# bash -c 'wget -O - https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/package-default.sh | bash -x'
-
-# bash -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/homebrew.sh)
-
-# bash -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/zsh_part1.sh)
-
-bash -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/zsh_part2.sh)
-
 bash -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/flameshot.sh)
 
 bash -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/diodon.sh)
@@ -19,7 +11,3 @@ bash -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ub
 bash -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/bamboo-key.sh)
 
 bash -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/indicator-multiload.sh)
-
-bash -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/neovim.sh)
-
-bash -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/pritunl.sh)
