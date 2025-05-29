@@ -17,3 +17,7 @@ bash -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ub
 bash -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/bamboo-key.sh)
 
 bash -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/indicator-multiload.sh)
+
+bash -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/neovim.sh)
+
+bash -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/pritunl.sh)
