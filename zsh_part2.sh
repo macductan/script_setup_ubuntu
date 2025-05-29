@@ -1,12 +1,3 @@
-# bash -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/zsh.sh)
-
-sudo apt update
-
-sudo apt install zsh -y
-zsh --version
-chsh -s $(which zsh)
-
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 mkdir -p $ZSH_CUSTOM/plugins
 mkdir -p ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins
 git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions

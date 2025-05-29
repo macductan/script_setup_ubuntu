@@ -4,7 +4,9 @@
 
 # bash -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/homebrew.sh)
 
-# bash -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/zsh.sh)
+# bash -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/zsh_part1.sh)
+
+bash -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/zsh_part2.sh)
 
 bash -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/flameshot.sh)
 
