@@ -3,6 +3,10 @@
 brew install neovim
 sudo apt install python3.12-venv -y
 
+# Alias python to python3
+echo 'alias python=python3' >> ~/.zshrc
+source ~/.zshrc
+
 # Install lib support
 brew install rg
 brew install jesseduffield/lazygit/lazygit
