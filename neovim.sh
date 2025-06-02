@@ -1,10 +1,11 @@
 # bash -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/neovim.sh)
 
 sudo snap install nvim --classic
+sudo apt install python3.12-venv -y
 
 # Install lib support
-sudo brew install rg -y
-sudo brew install jesseduffield/lazygit/lazygit -y
+brew install rg
+brew install jesseduffield/lazygit/lazygit
 
 # Install lazy.nvim
 git clone git@github.com:macductan/vim-setup.git ~/.config/nvim
