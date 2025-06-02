@@ -7,6 +7,14 @@ sudo apt install python3.12-venv -y
 brew install rg
 brew install jesseduffield/lazygit/lazygit
 
+# Install fonts
+wget -P ~/.local/share/fonts https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/JetBrainsMono.zip \
+&& cd ~/.local/share/fonts \
+&& unzip JetBrainsMono.zip \
+&& rm JetBrainsMono.zip \
+&& fc-cache -fv
+&& cd
+
 # Install lazy.nvim
 git clone git@github.com:macductan/vim-setup.git ~/.config/nvim
 git -C ~/.config/nvim checkout lazy-vim
