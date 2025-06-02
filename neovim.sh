@@ -1,6 +1,6 @@
 # bash -x <(curl -fsSL https://raw.githubusercontent.com/macductan/script_setup_ubuntu/main/neovim.sh)
 
-sudo snap install nvim --classic
+brew install neovim
 sudo apt install python3.12-venv -y
 
 # Install lib support
