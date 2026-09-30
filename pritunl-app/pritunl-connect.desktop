@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Pritunl VPN Connect
+Comment=Kết nối Pritunl VPN
+Exec=/usr/local/bin/pritunl-connect.sh
+Icon=network-vpn
+Terminal=false
+Categories=Network;
